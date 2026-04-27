@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1777292188453,
@@ -20,6 +20,18 @@
                 {
                     "date": 1777292288444,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,15 @@\n \r\n 2.  **Install required packages:**\r\n     ```bash\r\n     pip install tensorflow==2.19.0 numpy matplotlib pandas scikit-learn kagglehub\r\n+    !pip install tensorflow\r\n+!pip install numpy\r\n+!pip install matplotlib\r\n+!pip install scikit-learn\r\n+!pip install pandas\r\n+!pip install kagglehub\r\n+!pip install pillow\r\n     ```\r\n \r\n 3.  **Run the Notebook:** Open and execute all cells in the provided Jupyter Notebook (e.g., `face_mask_detection.ipynb`). The notebook will automatically download the dataset using the `kagglehub` library.\r\n \r\n"
+                },
+                {
+                    "date": 1777292913460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,14 +57,9 @@\n 2.  **Install required packages:**\r\n     ```bash\r\n     pip install tensorflow==2.19.0 numpy matplotlib pandas scikit-learn kagglehub\r\n     !pip install tensorflow\r\n-!pip install numpy\r\n-!pip install matplotlib\r\n-!pip install scikit-learn\r\n-!pip install pandas\r\n-!pip install kagglehub\r\n-!pip install pillow\r\n+\r\n     ```\r\n \r\n 3.  **Run the Notebook:** Open and execute all cells in the provided Jupyter Notebook (e.g., `face_mask_detection.ipynb`). The notebook will automatically download the dataset using the `kagglehub` library.\r\n \r\n"
+                },
+                {
+                    "date": 1777292922890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,14 @@\n \r\n 2.  **Install required packages:**\r\n     ```bash\r\n     pip install tensorflow==2.19.0 numpy matplotlib pandas scikit-learn kagglehub\r\n-    !pip install tensorflow\r\n+    !pip install tensorflow!pip install numpy\r\n+    !pip install matplotlib\r\n+!pip install scikit-learn\r\n+!pip install pandas\r\n+!pip install kagglehub\r\n+!pip install pillow\r\n \r\n     ```\r\n \r\n 3.  **Run the Notebook:** Open and execute all cells in the provided Jupyter Notebook (e.g., `face_mask_detection.ipynb`). The notebook will automatically download the dataset using the `kagglehub` library.\r\n"
+                },
+                {
+                    "date": 1777292930400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n     !pip install tensorflow!pip install numpy\r\n     !pip install matplotlib\r\n     !pip install scikit-learn\r\n     !pip install pandas\r\n-!pip install kagglehub\r\n+    !pip install kagglehub\r\n !pip install pillow\r\n \r\n     ```\r\n \r\n"
                 }
             ],
             "date": 1777292188453,
